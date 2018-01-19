@@ -19,6 +19,8 @@ TypeScript Korea 에서 활동중인 분들께서 열심히 준비해주신 밋�
 
 ## 첫 번째 세션 손찬욱님 (NAVER) - TypeScript 로부터 얻은 것과 잃은 것
 
+![naver](../images/naver.jpg)
+
 [egJS](https://naver.github.io/egjs/)라는 Open Source Library 에 Typescript 를 도입하면서 겪었던 경험담에 대해서 들을 수 있었다. 오픈소스로 진행된 egJS 는 이전에 부스트캠프를 진행하면서 library 로 사용해보았기 때문에 굉장히 반가웠다. egJS 의 모든 것에 Typescript 를 적용한 것 같지는 않고, 예를 들어주신 부분이 [Axes](https://naver.github.io/egjs-axes/)라는 모듈이다. 사용자의 인터렉션에 따라서 다양한 입력 장치로 사용자 작업 정보를 가상 좌표로 변경하는데 사용하는 모듈인데 자세한 내용은 링크로 확인하시라. 이 모듈에 Typescript 를 적용하셔서 얻게 된 부분은 첫 번째로 `타입이 주는 이점` 이다.
 
 어떻게 보면 당연하다 나도 Type 이 주는 이점이 굉장히 크다고 평소에도 생각을 해왔기 때문이다. 런타임에서의 오류를 컴파일타임에서 막아주기도 하고, IDE 가 발전하면서 (특히 VSCode 짱짱맨) TypeScript 내부에서 클래스와 메서드를 왔다 갔다 하면서 코드를 볼 수 있으므로 개발 생산성 및 안전성이 좋아질 수 밖에 없는 것 같다.
@@ -47,6 +49,8 @@ Typescript 자체적인 문법의 러닝커브는 높지 않다고 생각하는�
 
 ## 두번째 세션 김상원님 (Tumblbug) - 코드 한 줄 없는 Typescript 사용기
 
+![thmblebug](../images/tumblebug.jpg)
+
 [발표자료](http://slides.com/pueue/ts#/)를 넘나 잘 만들었다. 짤방에 취하는 그런 발표자료인 것 같다. 이분은 1 년 차 개발자라고 하시는데 발표를 너무나도 잘해주셔서 보기 좋았던 것 같다. 사내에서 React 를 사용하고 계시고 혼자서 빠르게 웹 서비스를 구축하고자 Typescript 를 선택했다고 한다.
 
 첫 번째로 `빠른 디버깅`을 꼽으셨는데 전적으로 동의한다. 일단 Type checking 이 런타임시 나타나는 `xxx of undefined`, `xxx is not function` 등의 오류들을 미리 막아 줄 수 있으므로 Type checking 이 한 몫했다고 생각한다.
@@ -63,6 +67,8 @@ Typescript 를 실 서비스에 적용하면서 겪었던 경험들에 대한 �
 
 ## 세번째 세션 한승호님 (에멘탈) - Typescript 개발 문화
 
+![emental](../images/emental.jpg)
+
 Typescript 를 2 년 동안 실 서비스를 적용하고 개발하기까지의 스토리를 소개해주셨다. Javascript 가 과연 주 언어가 될 수 있을 것인가에 대한 선택에서 Typescript 라는 것을 알게 되었고 이 후 Typescript 를 주력으로 사용하셨다고 한다.
 
 엔터프라이즈급의 웹 서비스를 위해서 Angular Framwork 를 선택하셨고 Angular 가 Typescript 를 기본 언어로 채택하기 전부터 이미 Typescript 를 도입하셔서 래핑해서 쓰셨다고 한다.
@@ -73,6 +79,8 @@ Typescript 를 2 년 동안 실 서비스를 적용하고 개발하기까지의 
 
 ## 네번째 세션 최종욱님 (후이서울(트릴리어네어)) - React with Typescript
 
+![huiseoul](../images/huiseoul.jpg)
+
 마지막 세션으로 React 와 함께하는 Typescript 에 대한 세션이였는데, 발표를 너무 위트있고 스무스하게 진행하셔서 좋았다. React 에 대한 간략한 소개와 어떻게 동작하는지에 대한 설명을 하고 Typescript 와 함께 쓴다면 어떤 이점이 있는지에 대한 것들을 Live Coding 을 통해서 (와우!) 보여주셨는데 정말 준비를 많이 하셨다는 느낌을 받았다. 중간중간 깨알같은 채용 공고는 덤
 
 React 에서의 Component 간 통신을 위핸 prop 및 state 에 대한 Type 들을 지정해서 Component 간에 통신 rule 을 정하고 나서 시작 하는 것과 JS 에서의 일단 넣고 끼워 맞추기 형식으로 코딩을 하는 방식에서 오는 차이점에 관해서 설명을 해주셨는데 거기에 live coding 까지 더해지니 이해가 좀 더 잘되고 좋았던 것 같다.
@@ -81,10 +89,12 @@ React 에서의 Component 간 통신을 위핸 prop 및 state 에 대한 Type �
 
 ## 마치며
 
-앞서서 발표하신 첫 번째 세션의 찬욱님도 문서화가 따로 필요 없어졌다.라는 말씀을 하셨고 상원 님이 Typescript 를 사용하면서 꼽은 장점 중에 코드 === 문서라는 말이 있었는데 현재 나는 우리 프로젝트의 문서화 작업을 하고 있으므로 코드를 좀 더 심도 있게 봐야 하지 않았을까 하는 생각이 들었다.
+![typescript meetup 꼽사리](../images/Typescript-Meetup-1.jpg)
 
-Typescript 를 사용하면서 느꼈던 장점들에 대한 것들은 준비된 세션을 들으면서 많이 공감되었다. 내가 Typescript 를 많이 다뤄보지는 않았지만, 대부분 사람들이 느끼는 장점들과 단점들이 내가 생각했던 것들과 비슷한 것 같다. 이외에도 많은 장/단점들이 있겠지만 TypeScript 는 분명히 좋은 언어이고 Javascript 를 사용해봤다면 충분히 배움을 시도해볼 만한 가치가 있는 것 같다.
+앞서서 발표하신 첫 번째 세션의 찬욱님도 문서화가 따로 필요 없어졌다. 라는 말씀을 하셨고 상원 님이 Typescript 를 사용하면서 꼽은 장점 중에 코드 === 문서라는 말이 있었는데 현재 나는 우리 프로젝트의 문서화 작업을 하고 있으므로 코드를 좀 더 심도 있게 봐야 하지 않았을까 하는 생각이 들었다.
+
+Typescript 를 사용하면서 느꼈던 장점들은 준비된 세션을 들으면서 많이 공감되었다. 내가 Typescript 를 많이 그리고 깊게 다뤄보지는 않았지만, 대부분 사람들이 느끼는 장/단점들이 내가 생각했던 것들과 비슷한 것 같다. 이외에도 많은 장/단점들이 있겠지만 TypeScript 는 분명히 좋은 언어이고 Javascript 를 사용해봤다면 충분히 배움을 시도해볼 만한 가치가 있는 것 같다.
 
 앞으로 Typescript 를 고오급지게 많이 접하도록 노력을 많이 해야겠다는 생각도 들었고 Typescript Korea 에서 이번 TS Meet up 준비하시느라 고생하신 Organizer 분들에게 감사하고 좋은 발표자료와 멋진 발표를 해주신 스피커 여러분께 감사하다는 말씀 전하고 싶다.
 
-다음 Meet up 분기 때는 더 많이 빨아먹을 수 있게 증가해야겠다.
+다음 Meet up 분기 때는 더 많이 빨아먹을 수 있게 성장해야겠다.
